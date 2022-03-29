@@ -1,0 +1,20 @@
+---
+sys:
+  id: 6Y9v9APlJ6ebpVu2dVQLtj
+  created_at: !ruby/object:DateTime 2022-03-29 22:00:39.569000000 Z
+  updated_at: !ruby/object:DateTime 2022-03-29 22:03:39.380000000 Z
+  content_type_id: blogPosts
+  revision: 4
+title: Testing Blog Post
+post_url: testing-url
+post_details:
+  nodeType: document
+  data: {}
+  content:
+  - nodeType: paragraph
+    content:
+    - nodeType: text
+      value: This is a test post which should show up on GH Page
+      marks: []
+      data: {}
+    data: {}
