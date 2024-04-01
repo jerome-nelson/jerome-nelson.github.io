@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    {% seo %}
+    <title>{{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/custom.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,7 +22,7 @@
       </header>
       <section>
         {% for tag in site.links %}
-          <a class="link {{ tag[0] }} rubik-500" href="{{ tag[1] }}">{{ tag[0] }}</a>
+          <a target="_blank" class="link {{ tag[0] }} rubik-500" href="{{ tag[1] }}">{{ tag[0] }}</a>
         {% endfor %}
       </section>
     </div>
