@@ -1,3 +1,12 @@
+title: Jerome's Developer Page
+description: I'm a front-end fullstack developer! I'll be updating this from time to time, for now here are some links
+logo: /assets/img/logo-two.png
+github:
+  is_project_page: false
+  is_user_page: true
+links:
+  github: https://github.com/jerome-nelson
+  linkedin: https://www.linkedin.com/in/jerome-darnell-nelson/
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
